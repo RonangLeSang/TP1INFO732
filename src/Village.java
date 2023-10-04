@@ -8,4 +8,13 @@ public class Village {
     ArrayList<Quartier> quartiers;
     ArrayList<Bataille> batailles;
 
+
+    public Village(String nom, Muse muse) {
+        this.nom = nom;
+        this.muse = muse;
+        this.habitants = new ArrayList<>();
+        this.quartiers = new ArrayList<>();
+        this.batailles = new ArrayList<>();
+    }
+
 }
