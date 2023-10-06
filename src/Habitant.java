@@ -8,6 +8,8 @@ public class Habitant {
     int numero;
     int nnig;
     Date naissance;
+    int poids;
+    ArrayList<Ingestion> dossierMedicale;
 
     public Habitant(String nom, String voie, int numero, int nnig, Date naissance, int poids) {
         this.nom = nom;
@@ -19,8 +21,7 @@ public class Habitant {
         this.dossierMedicale = new ArrayList<>();
     }
 
-    int poids;
-    ArrayList<Ingestion> dossierMedicale;
-
-
+    public String getNom() {
+        return nom;
+    }
 }

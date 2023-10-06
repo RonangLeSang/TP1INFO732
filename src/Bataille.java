@@ -5,6 +5,9 @@ public class Bataille {
 
     String nom;
     Date dateDebut;
+    Date dateFin;
+    String lieux;
+    ArrayList<Habitant> participants;
 
     public Bataille(String nom, Date dateDebut, Date dateFin, String lieux, ArrayList<Habitant> participants) {
         this.nom = nom;
@@ -14,8 +17,7 @@ public class Bataille {
         this.participants = participants;
     }
 
-    Date dateFin;
-    String lieux;
-    ArrayList<Habitant> participants;
-
+    public String getNom() {
+        return nom;
+    }
 }
