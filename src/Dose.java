@@ -1,7 +1,7 @@
 public class Dose {
 
-    int age;
-    int quantite;
+    private int age;
+    private int quantite;
 
     public Dose(int age, int quantite) {
         this.age = age;

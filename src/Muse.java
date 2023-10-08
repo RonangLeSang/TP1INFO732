@@ -3,8 +3,8 @@ import java.util.Scanner;
 
 public class Muse {
 
-    String name;
-    ArrayList<Casque> registre;
+    private String name;
+    private ArrayList<Casque> registre;
 
     public Muse(String name) {
         this.name = name;

@@ -1,6 +1,6 @@
 public class Drapeau {
 
-    String image;
+    private String image;
 
     public Drapeau(String image) {
         this.image = image;

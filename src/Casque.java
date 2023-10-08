@@ -2,14 +2,14 @@ import java.util.Scanner;
 
 public class Casque {
 
-    String forme;
-    String grade;
-    String etat;
-    boolean estDansMuse;
-    Habitant possesseur;
-    Bataille bataille;
+    private String forme;
+    private String grade;
+    private String etat;
+    private boolean estDansMuse;
+    private Habitant possesseur;
+    private Bataille bataille;
 
-    public Casque(){
+    public Casque(Habitant possesseur, Bataille bataille){
         Scanner sc = new Scanner(System.in);
         System.out.println("forme ? ");
         forme = sc.nextLine();
@@ -17,6 +17,9 @@ public class Casque {
         grade = sc.nextLine();
         System.out.println("etat ? ");
         etat = sc.nextLine();
+        this.estDansMuse = true;
+        this.possesseur = possesseur;
+        this.bataille = bataille;
     }
 
     public Casque(String forme, String grade, String etat, Habitant possesseur, Bataille bataille) {
