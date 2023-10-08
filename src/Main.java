@@ -77,12 +77,6 @@ public class Main {
 
         muse.ajouter(c1);
         muse.ajouter(c2);
-//        muse.prendre();
-//        muse.afficher();
-
-//        Habitant h1 = new Habitant();
-//        Bataille b4 = new Bataille();
-//        Casque c9 = new Casque(h1, b4);
 
         boolean exit = false;
         Scanner sc = new Scanner(System.in);
